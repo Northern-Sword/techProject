@@ -17,7 +17,7 @@ html, body {
 	/* Styles for better appearance on screens only -- are reset to defaults in print styles later */
 
 	/* Use a non-white background color to make the content areas stick out from the full page box */
-	background-color: #eee;
+	background-color: white;
 }
 
 /* Styles that are shared by all elements */
@@ -58,7 +58,7 @@ div.page-break {
 		/* Offset the negative extra margin at the right of the non-pseudo element */
 		margin-right: 0.5cm;
 		/* Make the bottom area appear as a part of the page margins of the upper virtual page */
-		background-color: #fff;
+		background-color: white;
 		/* Show a drop shadow beneath the upper virtual page */
 		box-shadow: 0 6px 5px rgba(75, 75, 75, 0.2);
 	}
