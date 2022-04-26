@@ -7,11 +7,13 @@ import { ProtocolComponent } from './protocol/protocol.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from "@angular/material/button";
 import {MatIconModule} from "@angular/material/icon";
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProtocolComponent
+    ProtocolComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

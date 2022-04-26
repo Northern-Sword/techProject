@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ProtocolComponent } from "./protocol/protocol.component";
+import {HomeComponent} from "./home/home.component";
 
 const routes: Routes = [
   { path: 'protocol', component: ProtocolComponent },
+  { path: 'home', component: HomeComponent },
 ];
 
 @NgModule({
