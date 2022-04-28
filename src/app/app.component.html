@@ -1,9 +1,11 @@
 <mat-toolbar color="primary">
-  <span>My Application</span>
+  <span class="rowHeader">Interface</span>
   <section>
-    <div class="example-button-row">
-      <button mat-flat-button color="primary">Burn-In</button>
-      <button mat-flat-button color="primary">Protocols</button>
+    <div class="button-row">
+      <button class="buttons" mat-flat-button color="primary" routerLink="/home" routerLinkActive="active">Burn-In</button>
+      <button class="buttons" mat-flat-button color="primary" routerLink="/protocol" routerLinkActive="active">Protocols</button>
+      <span class="space"></span>
+      <span class="remTime">Remaining time: XX:XX:XX</span>
     </div>
   </section>
 </mat-toolbar>

@@ -1,0 +1,27 @@
+@media print {
+  .button-row{
+    display: none;
+  }
+  .remtime{
+    display: none;
+  }
+  .rowHeader{
+    display: none;
+  }
+}
+.rowHeader{
+  font-size: larger;
+}
+
+.buttons{
+  font-size: medium;
+}
+
+.space {
+  flex: 1 1 auto;
+}
+
+.remTime{
+  font-size: larger;
+  float: right;
+}
