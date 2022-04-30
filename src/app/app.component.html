@@ -5,7 +5,8 @@
       <button class="buttons" mat-flat-button color="primary" routerLink="/home" routerLinkActive="active">Burn-In</button>
       <button class="buttons" mat-flat-button color="primary" routerLink="/protocol" routerLinkActive="active">Protocols</button>
       <span class="space"></span>
-      <span class="remTime">Remaining time: XX:XX:XX</span>
+      <span class="remTime">Remaining time:</span>
+      <span id="time" class="timer">{{ time | async }}</span>
     </div>
   </section>
 </mat-toolbar>
