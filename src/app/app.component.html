@@ -1,14 +1,12 @@
-<mat-toolbar color="primary">
-  <span class="rowHeader">Interface</span>
-  <section>
-    <div class="button-row">
-      <button class="buttons" mat-flat-button color="primary" routerLink="/home" routerLinkActive="active">Burn-In</button>
-      <button class="buttons" mat-flat-button color="primary" routerLink="/protocol" routerLinkActive="active">Protocols</button>
-      <span class="space"></span>
-      <span class="remTime">Remaining time:</span>
-      <span id="time" class="timer">{{ time | async }}</span>
-    </div>
-  </section>
-</mat-toolbar>
+<p>
+  <mat-toolbar color="primary">
+    <span>My App</span>
+    <button class="buttons" mat-flat-button color="primary" routerLink="/home" routerLinkActive="active">Burn-In</button>
+    <button class="buttons" mat-flat-button color="primary" routerLink="/protocol" routerLinkActive="active">Protocols</button>
+    <span class="example-spacer"></span>
+    <span class="remTime">Remaining time:</span>
+    <span id="time" class="timer">{{ time | async }}</span>
+  </mat-toolbar>
+</p>
 
 <router-outlet></router-outlet>
