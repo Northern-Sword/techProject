@@ -1,30 +1,28 @@
 <br>
-
-<p>
-  <button class="autohand" mat-flat-button color="accent">Auto/Hand Burn-In</button>
-</p>
-
-<p>
-  <button class="startbutton" (click)="startTimer()" mat-flat-button color="accent">Start Burn-In</button>
-  <button class="stopbutton" mat-flat-button color="accent">Stop Burn-In</button>
-  <button class="plug-in" mat-flat-button color="accent">Plug Burn-In</button>
-</p>
-
-<p class="ventilbuttons">
-  <button mat-flat-button color="accent">Ventil 1</button>
-  <button mat-flat-button color="accent">Ventil 2</button>
-  <button mat-flat-button color="accent">Ventil 3</button>
-  <button mat-flat-button color="accent">Ventil 4</button>
-  <button mat-flat-button color="accent">Ventil 5</button>
-  <button mat-flat-button color="accent">Ventil 6</button>
-  <button mat-flat-button color="accent">Ventil 7</button>
-  <button mat-flat-button color="accent">Ventil 8</button>
-</p>
+<div class="button-list">
+  <div class="auto-buttons">
+    <button class="autohand" mat-flat-button color="accent">Auto/Hand Burn-In</button>
+    <button class="plug-in" mat-flat-button color="accent">Plug Burn-In</button>
+    <div>
+      <button class="startbutton" (click)="startTimer()" mat-flat-button color="accent">Start Burn-In</button>
+      <button class="stopbutton" mat-flat-button color="accent">Stop Burn-In</button>
+    </div>
+  </div>
+  <div class="ventilbuttons">
+    <button mat-flat-button color="accent">Ventil 1</button>
+    <button mat-flat-button color="accent">Ventil 2</button>
+    <button mat-flat-button color="accent">Ventil 3</button>
+    <button mat-flat-button color="accent">Ventil 4</button>
+    <button mat-flat-button color="accent">Ventil 5</button>
+    <button mat-flat-button color="accent">Ventil 6</button>
+    <button mat-flat-button color="accent">Ventil 7</button>
+    <button mat-flat-button color="accent">Ventil 8</button>
+  </div>
+</div>
 
 <p>home works!</p>
 
 <form class="example-form">
-    <mat-label>Leave a comment</mat-label>
-    <p></p>
+    <h3 class="hbemerkung">Bemerkung:</h3>
     <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
 </form>

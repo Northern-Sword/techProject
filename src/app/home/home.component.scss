@@ -8,22 +8,36 @@
   width: 50%;
 }
 
-.plug-in{
+.button-list{
   float: right;
+  display: grid;
+  margin: 5px;
+  row-gap: 5px;
 }
 
-.autohand{
-  float: right;
-}
-
-.startbutton{
-  float: right;
-}
-
-.stopbutton{
-  float: right;
+.auto-buttons{
+  display: grid;
+  row-gap: 5px;
 }
 
 .ventilbuttons{
+  display: none;
+  //display: grid;
+  row-gap: 5px;
+}
+
+.autohand{
+}
+
+.startbutton{
+}
+
+.stopbutton{
+}
+
+.plug-in{
+}
+
+.example-form{
   display: none;
 }
