@@ -1,29 +1,25 @@
 @media print {
-  .button-row{
-    display: none;
-  }
-  .remtime{
-    display: none;
-  }
-  .rowHeader{
+  .taskbar{
     display: none;
   }
 }
+
 .rowHeader{
   font-size: larger;
 }
 
-.buttons{
-  font-size: medium;
-}
-
-.space {
-  flex: 1 1 auto;
+.buttonsTaskbar{
+  font-size: 20px;
 }
 
 .remTime{
-  font-size: larger;
+  font-size: 20px;
   float: right;
+  margin-right: 5px;
+}
+
+.timer{
+  font-size: 20px;
 }
 
 .example-spacer {

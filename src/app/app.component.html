@@ -1,10 +1,10 @@
 <p>
-  <mat-toolbar color="primary">
+  <mat-toolbar class="taskbar" color="primary">
     <span class="logo">
       <img src="images/logo_mobile.svg" alt="Hemovent"> <!Insert the Hemovent logo>
     </span>
-    <button class="buttons" mat-flat-button color="primary" routerLink="/home" routerLinkActive="active">Burn-In</button>
-    <button class="buttons" mat-flat-button color="primary" routerLink="/protocol" routerLinkActive="active">Protocols</button>
+    <button class="buttonsTaskbar" mat-flat-button color="primary" routerLink="/home" routerLinkActive="active">Burn-In</button>
+    <button class="buttonsTaskbar" mat-flat-button color="primary" routerLink="/protocol" routerLinkActive="active">Protocols</button>
     <span class="example-spacer"></span>
     <span class="remTime">Remaining time:</span>
     <span id="time" class="timer">{{ time | async }}</span>
