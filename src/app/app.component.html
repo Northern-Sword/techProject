@@ -1,8 +1,8 @@
 <mat-toolbar class="taskbar" color="primary">
   <img src="assets/logo.svg" alt="Hemovent" height="40%"> <!Insert the Hemovent logo>
   <span class="spacerLogo"></span>
-  <button class="buttonsTaskbar" mat-flat-button routerLink="/home" routerLinkActive="active">Burn-In</button>
-  <button class="buttonsTaskbar" mat-flat-button routerLink="/protocol" routerLinkActive="active">Protocols</button>
+  <button class="buttonsTaskbar" mat-flat-button routerLink="/home" color="accent" routerLinkActive="active">Burn-In</button>
+  <button class="buttonsTaskbar" mat-flat-button routerLink="/protocol" color="accent" routerLinkActive="active">Protocols</button>
   <span class="example-spacer"></span>
   <span class="remTime">Remaining time:</span>
   <span id="time" class="timer">{{ time | async }}</span>
