@@ -10,18 +10,28 @@
 
 .buttonsTaskbar{
   font-size: 20px;
+  color: grey;
+  margin-right: 5px;
 }
 
 .remTime{
   font-size: 20px;
   float: right;
   margin-right: 5px;
+  color: grey;
 }
 
 .timer{
   font-size: 20px;
+  color: grey;
 }
 
 .example-spacer {
   flex: 1 1 auto;
+}
+
+.logo{
+  width: 15.5%;
+  display: flex;
+  margin-top: 3%;
 }
