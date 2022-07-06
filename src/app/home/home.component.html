@@ -1,12 +1,13 @@
 <body>
   <br>
   <div class="button-list">
-    <div class="auto-buttons">
-      <button class="autohand" mat-flat-button color="warn">Auto/Hand Burn-In</button>
-      <button class="plug-in" mat-flat-button color="warn">Plug Burn-In</button>
+    <div class="basic-buttons">
+      <button mat-flat-button color="warn">Auto/Hand Burn-In</button>
+      <button mat-flat-button color="warn">Plug Burn-In</button>
       <div>
-        <button class="startbutton" (click)="startTimer()" mat-flat-button color="warn">Start Burn-In</button>
-        <button class="stopbutton" mat-flat-button color="warn">Stop Burn-In</button>
+        <button (click)="startTimer()" mat-flat-button color="warn">Start Burn-In</button>
+        <span class="spacer1"></span>
+        <button mat-flat-button color="warn">Stop Burn-In</button>
       </div>
     </div>
     <div class="ventilbuttons">

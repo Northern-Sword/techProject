@@ -15,7 +15,7 @@
   row-gap: 5px;
 }
 
-.auto-buttons{
+.basic-buttons{
   display: grid;
   row-gap: 5px;
 }
@@ -26,22 +26,14 @@
   row-gap: 5px;
 }
 
-.autohand{
-}
-
-.startbutton{
-}
-
-.stopbutton{
-}
-
-.plug-in{
-}
-
 .example-form{
   display: none;
 }
 
 body{
   background: grey;
+}
+
+.spacer1{
+  margin-right: 5px;
 }
