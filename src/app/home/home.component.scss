@@ -26,12 +26,8 @@
   row-gap: 5px;
 }
 
-.example-form{
-  display: none;
-}
-
 body{
-  background: grey;
+  background: lightgrey;
 }
 
 .spacer1{
@@ -40,49 +36,7 @@ body{
 
 .list1{
   display: grid;
-}
-
-.ventilgrid{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
-  gap: 30px;
-}
-
-.ventil{
-  width: 15%;
-}
-
-.ventilgrid-element1{
-
-}
-
-.ventilgrid-element2{
-
-}
-
-.ventilgrid-element3{
-
-}
-
-.ventilgrid-element4{
-
-}
-
-.ventilgrid-element5{
-
-}
-
-.ventilgrid-element6{
-
-}
-
-.ventilgrid-element7{
-
-}
-
-.ventilgrid-element8{
-
+  margin-left: 15px;
 }
 
 figure{
@@ -91,7 +45,6 @@ figure{
   margin-inline-start: 20px;
   margin-inline-end: 20px;
   text-align: center;
-  font-size: smaller;
   text-indent: 0;
 }
 
@@ -99,6 +52,54 @@ figcaption{
 
 }
 
+.ventilgrid{
+  display: grid;
+  grid-row-gap: 30px;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto;
+}
+
+.ventil{
+  width: 25%;
+}
+
 .ventil-labeling{
   font-weight: bold;
+}
+
+.ventilgrid-element1 {
+  //grid-area: content1;
+}
+
+.ventilgrid-element2{
+  //grid-area: content2;
+}
+.ventilgrid-element3{
+  //grid-area: content3;
+}
+.ventilgrid-element4{
+  //grid-area: content4;
+}
+.ventilgrid-element5{
+  //grid-area: content5;
+}
+.ventilgrid-element6{
+  //grid-area: content6;
+}
+.ventilgrid-element7 {
+  //grid-area: content7;
+}
+
+.ventilgrid-element8{
+  //grid-area: content8;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
 }

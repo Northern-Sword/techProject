@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
+import {MatSelectModule} from "@angular/material/select";
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import {MatInputModule} from "@angular/material/input";
         MatToolbarModule,
         MatFormFieldModule,
         MatInputModule,
+        MatSelectModule,
     ],
   providers: [],
   bootstrap: [AppComponent]
