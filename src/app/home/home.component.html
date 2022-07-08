@@ -2,7 +2,11 @@
   <br>
   <div class="button-list">
     <div class="basic-buttons">
-      <button mat-flat-button color="warn">Auto/Hand Burn-In</button>
+      <button mat-flat-button [matMenuTriggerFor]="belowMenu" color="warn">Operating Mode</button>
+      <mat-menu #belowMenu="matMenu" yPosition="below">
+        <button mat-menu-item>Automatic</button>
+        <button mat-menu-item>Manual</button>
+      </mat-menu>
       <button mat-flat-button color="warn">Plug Burn-In</button>
       <div>
         <button (click)="startTimer()" mat-flat-button color="warn">Start Burn-In</button>
@@ -79,7 +83,7 @@
   </div>
 
   <mat-form-field appearance="fill" color="warn" class="example-full-width">
-    <mat-label>Bemerkung</mat-label>
+    <mat-label>Remark</mat-label>
     <textarea matInput></textarea>
   </mat-form-field>
 </body>

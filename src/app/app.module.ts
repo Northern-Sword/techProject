@@ -12,6 +12,7 @@ import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
 import {MatSelectModule} from "@angular/material/select";
+import {MatMenuModule} from "@angular/material/menu";
 
 @NgModule({
   declarations: [
@@ -19,17 +20,18 @@ import {MatSelectModule} from "@angular/material/select";
     ProtocolComponent,
     HomeComponent
   ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        BrowserAnimationsModule,
-        MatButtonModule,
-        MatIconModule,
-        MatToolbarModule,
-        MatFormFieldModule,
-        MatInputModule,
-        MatSelectModule,
-    ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatIconModule,
+    MatToolbarModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSelectModule,
+    MatMenuModule,
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
