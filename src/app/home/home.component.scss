@@ -1,7 +1,3 @@
-.startbutton {
-  margin-right: 5px;
-}
-
 .example-form {
   min-width: 200px;
   max-width: 300px;
@@ -94,12 +90,11 @@ figcaption{
   //grid-area: content8;
 }
 
-.example-form {
-  min-width: 150px;
-  max-width: 500px;
+.remark {
   width: 100%;
+  alignment: bottom;
 }
 
-.example-full-width {
-  width: 100%;
+.text-area{
+  resize: none;
 }

@@ -82,8 +82,10 @@
     </figure>
   </div>
 
-  <mat-form-field appearance="fill" color="warn" class="example-full-width">
-    <mat-label>Remark</mat-label>
-    <textarea matInput></textarea>
-  </mat-form-field>
+  <div class="remark-area">
+    <mat-form-field appearance="fill" color="warn" class="remark">
+      <mat-label>Remark</mat-label>
+      <textarea class="text-area" matInput cdkTextareaAutosize cdkAutosizeMinRows="5" cdkAutosizeMaxRows="10"></textarea>
+    </mat-form-field>
+  </div>
 </body>
