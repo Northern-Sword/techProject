@@ -13,7 +13,7 @@ import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
 import {MatSelectModule} from "@angular/material/select";
 import {MatMenuModule} from "@angular/material/menu";
-import { UserInputDialogComponent } from './app/user-input-dialog/user-input-dialog.component';
+import { UserInputDialogComponent } from './user-input-dialog/user-input-dialog.component';
 
 @NgModule({
   declarations: [
