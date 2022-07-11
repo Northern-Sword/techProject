@@ -14,6 +14,7 @@ import {MatInputModule} from "@angular/material/input";
 import {MatSelectModule} from "@angular/material/select";
 import {MatMenuModule} from "@angular/material/menu";
 import { UserInputDialogComponent } from './user-input-dialog/user-input-dialog.component';
+import {MatDialogModule} from "@angular/material/dialog";
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { UserInputDialogComponent } from './user-input-dialog/user-input-dialog.
     MatInputModule,
     MatSelectModule,
     MatMenuModule,
+    MatDialogModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
